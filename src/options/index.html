@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crunchyroll Filter Options</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="options-container">
+        <h1>Default Filter Settings</h1>
+        <p style="text-align: center; margin-top: -10px; margin-bottom: 20px; color: #666;">These settings will be
+            applied automatically when you visit Crunchyroll.</p>
+
+        <form id="options-form">
+
+            <div class="form-group">
+                <label for="rating">Minimum Rating (e.g., 4.1)</label>
+                <input type="number" id="rating" name="rating" step="0.1" min="0" max="5"
+                    placeholder="Leave blank for no rating filter">
+            </div>
+
+            <div class="form-group">
+                <label for="episodes">Minimum Episodes</label>
+                <input type="number" id="episodes" name="episodes" min="1"
+                    placeholder="Leave blank for no episode filter">
+            </div>
+
+            <div class="form-group">
+                <label>Default Dub Languages</label>
+                <div id="dub-languages-container" class="language-group">
+                    <!-- Checkboxes will be dynamically inserted here -->
+                </div>
+            </div>
+
+            <button type="submit" id="save">Save Settings</button>
+            <div id="status"></div>
+        </form>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

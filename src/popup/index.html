@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Crunchyroll Filters</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h3>Filter Options</h3>
+
+        <div class="filter-group">
+            <h4>Basic Info</h4>
+        </div>
+        <div class="form-group">
+            <label for="episodes">Min Episodes:</label>
+            <input type="number" id="episodes" name="episodes" min="1" placeholder="e.g. 12">
+        </div>
+        <div class="form-group">
+            <label for="rating">Min Rating (0-5):</label>
+            <input type="number" id="rating" name="rating" min="0" max="5" step="0.1" placeholder="e.g. 4.5">
+        </div>
+    </div>
+
+    <div class="filter-group">
+        <h4>Dub Languages</h4>
+        <div class="checkbox-group" id="dubLanguages">
+            <label><input type="checkbox" name="dubLang" value="English"> English</label>
+            <label><input type="checkbox" name="dubLang" value="German"> German</label>
+            <label><input type="checkbox" name="dubLang" value="Spanish"> Spanish</label>
+            <label><input type="checkbox" name="dubLang" value="French"> French</label>
+            <label><input type="checkbox" name="dubLang" value="Portuguese"> Portuguese</label>
+            <label><input type="checkbox" name="dubLang" value="Italian"> Italian</label>
+            <label><input type="checkbox" name="dubLang" value="Russian"> Russian</label>
+            <label><input type="checkbox" name="dubLang" value="Hindi"> Hindi</label>
+        </div>
+    </div>
+
+    <!-- Add similar sections for Subtitle Languages and Genres if desired -->
+    <!--
+        <div class="filter-group">
+            <h4>Subtitle Languages</h4>
+            <div class="checkbox-group" id="subLanguages">
+                <label><input type="checkbox" name="subLang" value="English"> English</label>
+                <label><input type="checkbox" name="subLang" value="German"> German</label>
+                ...
+            </div>
+        </div>
+
+        <div class="filter-group">
+            <h4>Genres</h4>
+            <div class="checkbox-group" id="genres">
+                <label><input type="checkbox" name="genre" value="Action"> Action</label>
+                <label><input type="checkbox" name="genre" value="Adventure"> Adventure</label>
+                <label><input type="checkbox" name="genre" value="Comedy"> Comedy</label>
+                <label><input type="checkbox" name="genre" value="Drama"> Drama</label>
+                <label><input type="checkbox" name="genre" value="Fantasy"> Fantasy</label>
+                <label><input type="checkbox" name="genre" value="Sci-Fi"> Sci-Fi</label>
+                ...
+            </div>
+        </div>
+        -->
+
+    <div class="button-group">
+        <button id="applyButton">Apply Filters</button>
+        <button id="clearButton">Clear Filters</button>
+    </div>
+
+    <div id="statusMessage" class="status-message"></div>
+
+    </div>
+    <script src="popupindex.js"></script>
+</body>
+
+</html>

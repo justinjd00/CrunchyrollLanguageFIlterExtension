@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Crunchyroll Filter Extension v.0.1.1",
+  "version": "0.1.1",
+  "description": "Enhances filtering options for series and movies on Crunchyroll.",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting",
+    "*://*.crunchyroll.com/*"
+  ],
+  "background": {
+    "service_worker": "src/background/index.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.crunchyroll.com/*"
+      ],
+      "js": [
+        "src/content/contentindex.js"
+      ]
+    }
+  ],
+  "action": {
+    "default_popup": "src/popup/index.html"
+  },
+  "options_page": "src/options/index.html"
+}
