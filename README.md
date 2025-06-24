@@ -2,10 +2,10 @@
 
 [![Code License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Chrome-brightgreen.svg)]()
-[![GitHub Stars](https://img.shields.io/github/stars/YourUsername/YourRepo?style=social)](https://github.com/YourUsername/YourRepo/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/YourUsername/YourRepo?style=social)](https://github.com/YourUsername/YourRepo/network/members)
-[![GitHub Issues](https://img.shields.io/github/issues/YourUsername/YourRepo)](https://github.com/YourUsername/YourRepo/issues)
-[![GitHub last commit](https://img.shields.io/github/last-commit/YourUsername/YourRepo)](https://github.com/YourUsername/YourRepo/commits/main)
+[![GitHub Stars](https://img.shields.io/github/stars/justinjd00/CrunchyrollLanguageFIlterExtension?style=social)](https://github.com/justinjd00/CrunchyrollLanguageFIlterExtension/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/justinjd00/CrunchyrollLanguageFIlterExtension?style=social)](https://github.com/justinjd00/CrunchyrollLanguageFIlterExtension/network/members)
+[![GitHub Issues](https://img.shields.io/github/issues/justinjd00/CrunchyrollLanguageFIlterExtension)](https://github.com/justinjd00/CrunchyrollLanguageFIlterExtension/issues)
+[![GitHub last commit](https://img.shields.io/github/last-commit/justinjd00/CrunchyrollLanguageFIlterExtension)](https://github.com/justinjd00/CrunchyrollLanguageFIlterExtension/commits/main)
 
 An unofficial browser extension for Google Chrome that enhances the browsing experience on Crunchyroll with powerful, persistent filtering options.
 
